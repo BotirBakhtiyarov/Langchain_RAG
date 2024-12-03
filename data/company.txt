@@ -20,7 +20,6 @@ Ta'limni raqamlashtirish: Ta'lim muassasalari uchun virtual resurslarni taqdim e
 Oson foydalanish: Virtual kompyuter tizimlari orqali foydalanuvchilar masofadan ishlashni tez va oson amalga oshirishlari uchun qulaylik yaratish.
 Doimiy rivojlanish: Kompaniya yangi texnologiyalarni tatbiq etish va xizmat sifatini oshirish orqali bozorda o‘z mavqeini mustahkamlashga intiladi.
 Xodimlar tajribasi:
-Kompaniyada yuqori malakali dasturchilar va texnik mutaxassislar ishlaydi. Siz, Botir Bakhtiyarov, kompaniyaning asosiy dasturiy ta'minot muhandislaridan biri sifatida quyidagilarga ixtisoslashgansiz:
 
 Bulutli yechimlar ishlab chiqish: Virtual kompyuterlar uchun yangi funksiyalar va xizmatlarni ishlab chiqish.
 Dasturiy ta'minotni yangilash: Dastur do‘koni uchun yangi ilovalar qo‘shish va ularni optimallashtirish.
