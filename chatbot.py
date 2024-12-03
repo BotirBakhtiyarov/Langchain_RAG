@@ -30,7 +30,7 @@ def load_knowledge_base(folder_path):
 # Function to create RAG chain
 def create_rag_chain(vector_store):
     retriever = vector_store.as_retriever()
-    llm = ChatOpenAI(model="gpt-4", temperature=1)
+    llm = ChatOpenAI(model="gpt-4", temperature=0.9)
     return RetrievalQA.from_chain_type(llm=llm, retriever=retriever)
 
 
@@ -101,7 +101,7 @@ if __name__ == "__main__":
     qa_chain = create_rag_chain(vector_store)
 
     # Initialize general ChatGPT model for fallback
-    general_llm = ChatOpenAI(model="gpt-4", temperature=0.8)
+    general_llm = ChatOpenAI(model="gpt-4", temperature=0.9)
 
     # Start the interactive chatbot
     interactive_chatbot(qa_chain, vector_store.as_retriever(), general_llm)
